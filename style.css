@@ -1,0 +1,94 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "roboto", sans-serif;
+  font-size: 16px;
+  background-color: #d3b7b7;
+  color: #ffffff;
+  display: flex;
+  width: 100%;
+  min-height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.form {
+  background-color: #b38c8c;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.8);
+  border-radius: 20px;
+  display: inline-block;
+  width: 800px;
+  padding: 90px;
+  
+}
+.form__header {
+  margin-bottom: 24px;
+}
+
+
+.form__body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.form__group {
+    margin-top: 5px;
+  margin-bottom: 30px;
+}
+
+.form__control {
+  background: #ffffff;
+  border: 2px solid #EBB7B7;
+  border-radius: 15px;
+  padding: 8px;
+  height: 50px;
+  min-width: 600px;
+}
+.form__control2 {
+    background: #ffffff;
+    border: 2px solid #EBB7B7;
+    border-radius: 15px;
+    padding: 8px;
+    height: 50px;
+    min-width: 250px;
+  }
+
+  .form__control3 {
+    background: #ffffff;
+    border: 2px solid #EBB7B7;
+    border-radius: 15px;
+    padding: 8px;
+    height: 40px;
+    min-width: 50px;
+    margin-bottom: 10px;
+  }
+
+.data1 {
+    width: 100%;
+    min-width: 250px;
+    height: 47px;
+    font-family: sans-serif;
+    font-size: 16px;
+    padding: 10px 10px;
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+
+.form__submit {
+  padding: 16px 24px;
+  font-weight: 500;
+  color: #ffff;
+  border: 1px solid #B88F8F;
+  background-color: #6B3333;
+  border-radius: 6px;
+  display: flex;
+  cursor: pointer;
+  margin-left: auto;
+}
